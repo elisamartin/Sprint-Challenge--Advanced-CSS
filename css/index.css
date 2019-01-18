@@ -161,6 +161,8 @@ p {
   margin: 0 auto;
 }
 .navigation {
+  background-color: #F6F6F6;
+  border-bottom: 1px solid #F1F1F1;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -191,6 +193,10 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.home .intro img {
+  border-radius: 8px;
+  height: 100%;
 }
 .home .intro h2 {
   padding: 15px;
