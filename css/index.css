@@ -172,7 +172,7 @@ p {
   padding: 15px;
 }
 .navigation nav {
-  width: 50%;
+  width: 60%;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -318,4 +318,34 @@ footer {
   width: 100%;
   height: auto;
   border-radius: 10px;
+}
+.home .form {
+  border-top: 1px solid #dee2e6;
+  padding: 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+@media (max-width: 500px) {
+  .home .form h3 {
+    text-align: center;
+    padding-bottom: 5px;
+  }
+}
+.home .form form {
+  font-size: 1.6rem;
+  line-height: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding-top: 3%;
+}
+.home .form form input[type=submit] {
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+  font-size: 1.6rem;
+  color: #dee2e6;
+  background-color: #23293b;
+  padding: 10px;
 }

@@ -116,4 +116,25 @@
 			}
 		}
 	}
+	.form {
+		border-top: 1px solid @main-border-color;
+		padding: 5%;
+		.flex-align(column, center);
+		h3 {
+			@media @phone {
+				text-align: center;
+				padding-bottom: 5px;
+			}
+		}
+		form {
+			font-size: 1.6rem;
+			line-height: 1;
+			.flex-justi(column, space-around);
+			padding-top: 3%;
+			input[type=submit] {
+				.border-radius(8px);
+				.button-style(1.6rem; @main-border-color; @header-font-color; 10px);
+			}
+		}
+	}
 } // home
